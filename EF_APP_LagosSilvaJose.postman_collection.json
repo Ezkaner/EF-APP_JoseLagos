@@ -50,7 +50,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8075/usuarios/verificar/JoseLagos",
+					"raw": "http://localhost:8050/usuarios/verificar/JoseLagos",
 					"protocol": "http",
 					"host": [
 						"localhost"
