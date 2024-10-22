@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "22f0f0d5-cfa6-42d2-b5e3-163cceaaa5b4",
+		"name": "EF_APP_LagosSilvaJose",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38292027"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8050/usuarios/verificar/JoseLagos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "secret",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "client",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "jose",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8075/usuarios/verificar/JoseLagos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8075",
+					"path": [
+						"usuarios",
+						"verificar",
+						"JoseLagos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
